@@ -1,6 +1,5 @@
 <?php
     class printer{
-        protected $pixel_width;
         protected $pixel_height;
         protected $character;
         protected $display;
@@ -11,7 +10,6 @@
             $this->character = $character;
             $this->display = $display;
             $this->pixel_height = 5;
-            $this->pixel_width = 5;
             $this->alphabets = [
                 "A" => [[0,0,1,0,0], [0,1,0,1,0], [1,1,1,1,1],[1,0,0,0,1],[1,0,0,0,1]],
                 "B" => [[1,1,1,1,0], [1,0,0,0,1], [1,1,1,1,0],[1,0,0,0,1],[1,1,1,1,0]],
